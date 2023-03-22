@@ -142,7 +142,7 @@
                     canvasHeight: 480
                 });
 
-                // Відновлюємо матрицю проекції камери після закінчення ініціалізації
+                // Відновлюємо матрицю проекції камери після закінчення ініціалізації!
                 arToolkitContext.init(function onCompleted() {
                     camera.projectionMatrix.copy(arToolkitContext.getProjectionMatrix());
                 });
